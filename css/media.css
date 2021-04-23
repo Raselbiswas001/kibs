@@ -1,0 +1,309 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+		/*header*/
+	.menu ul li a {
+		padding: 5px 0 !important;
+		text-align: right;
+		
+		
+	}
+	.h-icon {
+		margin: 0; 
+		text-align: right;
+	}	
+
+		/*service*/
+	.service {
+		padding: 60px 0;
+	}
+	.icon i {
+		margin: 0 0 25px;
+	}
+	.i_p {
+		margin: 15px 0 30px;
+	}
+
+	/*about*/
+	.about {
+		padding: 60px 0;
+	}
+		.a_text {
+		margin-top: 0;
+		margin-left: 10px;
+	}
+	.c_h1 {
+		font-size: 20px;
+
+	}
+	.a_p {
+		margin: 15px 0 30px;
+	}
+	.about_s {
+		margin-bottom: -40px;
+	}
+	.a_img {
+		text-align: center;
+	}
+	.a_btn{
+		height: 40px;
+		width: 130px;
+	}
+			/*work*/
+	.work {
+		padding: 60px 0;
+	}
+	.c_p {
+		margin: 30px 0 40px;
+	}
+	.c_btn {
+		width: 40%;
+
+	}
+		 /*quotes*/
+	 .quotes_s{
+	 	bottom: 35px;
+	 }
+
+	 	 /*team*/
+	 .team {
+		padding: 60px 0;
+	}
+	 .t_h3 {
+	 	margin: 15px 0 0;
+	 }
+
+	 .t_p {
+	    margin: 15px 0 20px;
+	 }
+	 /*join-us*/
+	 .join-us {
+		padding: 60px 0;
+	}
+	 .c_form {
+	 	margin-bottom: 20px;
+	 }
+	 /*footer*/
+	 footer{
+	 	padding: 60px 0;
+	 }
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	 	/*header*/
+	.menu ul li a {
+		padding: 5px 0 !important;
+		text-align: right;
+		
+		
+	}
+	.h-icon {
+		margin: 0; 
+		text-align: right;
+	}	
+
+
+	 	/*service*/
+	 .service {
+		padding: 70px 0;
+	}
+	.icon i {
+		margin: 0 0 30px;
+	}
+	.i_p {
+	    margin: 20px 0 40px;
+	}
+		/*about*/
+		.about {
+			padding: 70px 0;
+	}
+		.a_text {
+		margin-top: 70px;
+		margin-left: 20px;
+	}
+	.c_h1 {
+		font-size: 30px;
+
+	}
+	.a_p {
+		margin: 20px 0 40px;
+	}
+	.about_s {
+		margin-bottom: -40px;
+	}
+	.a_img {
+		text-align: center;
+	}
+		/*work*/
+	.work {
+		padding: 70px 0;
+	}
+	.c_p {
+		margin: 40px 0 50px;
+	}
+
+		 /*quotes*/
+	 .quotes_s{
+	 	bottom: 35px;
+	 }
+	 .q_text{
+	 	margin-top: 70px;
+	 	margin-left: 0;
+
+	 }
+	 #talkbubble {
+	 	height: 52%;
+	 	width: 130%;
+	 	margin-bottom: 30px;
+
+	 }
+	 	 /*team*/
+	 .team {
+		padding: 70px 0;
+	}
+	 .t_h3 {
+	 	margin: 20px 0 0;
+	 }
+
+	 .t_p {
+	 	margin: 20px 0 30px;
+	 }
+
+	 /*join-us*/
+	 .join-us {
+		padding: 70px 0;
+	}
+	 .c_form {
+	 	margin-bottom: 20px;
+	 }
+	 /*footer*/
+	  footer{
+	 	padding: 70px 0;
+	 }
+	
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header*/
+	.menu ul li a {
+		padding: 5px 0 !important;
+		text-align: right;
+
+
+	}
+	.h-icon {
+		margin: 0; 
+		text-align: right;
+	}
+	/*service*/
+	.service {
+		padding: 80px 0;
+	}
+	.icon i {
+		margin: 0 0 35px;
+	}
+	.i_p {
+		margin: 25px 0 50px;
+	}
+	/*about*/
+	.about {
+			padding: 80px 0;
+		}
+	.a_text {
+		margin-top: 110px;
+		margin-left: 40px;
+	}
+	.c_h1 {
+		font-size: 40px;
+
+	}
+	.a_p {
+		margin: 25px 0 50px;
+	}
+	.about_s {
+		margin-bottom: -40px;
+	}
+	/*work*/
+	.work {
+		padding: 80px 0;
+	}
+	.c_p {
+		margin: 50px 0 70px;
+	}
+
+	 /*quotes*/
+	 .quotes_s{
+	 	bottom: 35px;
+	 }
+	 .a_img {
+	 	margin-top: 20%;
+	 }
+	 .q_text{
+	 	margin-top: 110px;
+	 	margin-bottom: 50px;
+	 	margin-left: 0;
+
+	 }
+	 #talkbubble {
+	 	height: 52%;
+	 	width: 130%;
+
+	 }
+	 #talkbubble:before {
+	 	content: "";
+	 	top: 68px;
+	 	
+	 }
+	 /*team*/
+	 .team {
+		padding: 80px 0;
+	}
+	 .t_h3 {
+	 	margin: 25px 0 0;
+	 }
+
+	 .t_p {
+	 	margin: 25px 0 40px;
+	 }
+	 /*join-us*/
+	 .join-us {
+		padding: 80px 0;
+	}
+	/*footer*/
+	  footer{
+	 	padding: 80px 0;
+	 }
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	 /*quotes*/
+	 .q_text {
+	 	margin-top: 110px;
+	 }
+	 #talkbubble {
+	 	height: 50%;
+
+	 }
+	 #talkbubble:before {
+	 	content: "";
+	 	top: 68px;
+
+	 }
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	
+}
+
+ /*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+
+
+ }
+
+ 
